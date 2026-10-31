@@ -1,0 +1,8 @@
+{
+  "name": "navicore-os-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Presentation website for NAVICORE OS by Navicore Software",
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": { "next": "^16.0.0", "react": "^19.0.0", "react-dom": "^19.0.0" }
+}
