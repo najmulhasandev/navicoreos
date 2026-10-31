@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Hero, Sec, Pill, Cta } from "../../components/ui";
 import { meta, state, STATUS_DATE } from "../../lib/site";
-export const metadata = meta("Current state of NAVICORE OS", "An honest, dated report of what is live, what is in build and what is planned for NAVICORE OS, including infrastructure and quality checks.", "/status");
+export const metadata = meta("Current state of the project", "An honest, dated report of what is live, what is in build and what is planned for NAVICORE OS, including infrastructure and quality checks.", "/status");
 
 export default function Status() {
   return (<>
