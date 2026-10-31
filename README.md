@@ -9,11 +9,11 @@ npm run dev      # http://localhost:3000
 npm run build && npm start
 ```
 
-## Deploy on Vercel at navicore.os.navicoresoftware.com
+## Deploy on Vercel at navicoreos.navicoresoftware.com
 1. Push this folder to a GitHub repository and import it in Vercel (framework: Next.js, no build settings needed).
-2. Project > Settings > Environment Variables: `NEXT_PUBLIC_SITE_URL=https://navicore.os.navicoresoftware.com`
-3. Project > Settings > Domains: add `navicore.os.navicoresoftware.com`.
-4. At the DNS provider for navicoresoftware.com, add the record Vercel displays. Normally a CNAME with host `navicore.os` pointing to the value Vercel gives you (typically `cname.vercel-dns.com`).
+2. Project > Settings > Environment Variables: `NEXT_PUBLIC_SITE_URL=https://navicoreos.navicoresoftware.com`
+3. Project > Settings > Domains: add `navicoreos.navicoresoftware.com`.
+4. At the DNS provider for navicoresoftware.com, add the record Vercel displays. Normally a CNAME with host `navicoreos` pointing to the value Vercel gives you (typically `cname.vercel-dns.com`).
 
 ## SEO included
 - `metadataBase`, title template, descriptions, keywords, per-page canonical URLs, Open Graph and Twitter cards
