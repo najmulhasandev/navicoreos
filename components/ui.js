@@ -16,7 +16,7 @@ export const Footer = () => (
     <div><h3>Explore</h3>{nav.map(([l, h]) => <Link key={h} href={h}>{l}</Link>)}</div>
     <div><h3>Navicore</h3>
       <a href={site.main}>os.navicore.co</a><a href={site.org}>navicore.co</a>
-      <a href={site.software}>Navicore Software</a><a href={site.railmate}>RailMate Bangladesh</a></div>
+      <a href={site.software}>Navicore Software</a><a href={site.railmate}>RailMate Bangladesh</a><a href={site.portfolio}>Najmul Hasan’s portfolio</a></div>
     <div><h3>Contact</h3><a href={`mailto:${site.email}`}>{site.email}</a><p>Najmul Hasan, Founder, CEO &amp; CPO</p><p>Nusrat Jahan Bably, Co-Founder &amp; MD</p></div>
   </div><div className="wrap copy">© 2026 Navicore Software. NAVICORE OS is a product of the Navicore ecosystem.</div></footer>
 );

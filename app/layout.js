@@ -9,7 +9,7 @@ export const metadata = {
   description: desc,
   applicationName: "NAVICORE OS",
   keywords: ["business operating system", "project management", "CRM", "time tracking", "multi-tenant SaaS", "Bangla business software", "company management platform", "Navicore Software"],
-  authors: [{ name: "Navicore Software", url: site.org }, { name: "Najmul Hasan" }],
+  authors: [{ name: "Navicore Software", url: site.org }, { name: "Najmul Hasan", url: site.portfolio }],
   creator: "Navicore Software", publisher: "Navicore Software",
   alternates: { canonical: process.env.NEXT_PUBLIC_CANONICAL_URL ? process.env.NEXT_PUBLIC_CANONICAL_URL + "/" : "/" },
   openGraph: { type: "website", siteName: "NAVICORE OS", locale: "en_US", url: "/", title: "NAVICORE OS: one building, many rooms, everything a company needs", description: desc },
@@ -22,8 +22,8 @@ export const viewport = { themeColor: "#080D17", colorScheme: "dark", width: "de
 
 const org = { "@context": "https://schema.org", "@graph": [
   { "@type": "Organization", "@id": SITE_URL + "/#org", name: "Navicore Software", url: site.org, email: site.email,
-    founder: [{ "@type": "Person", name: "Najmul Hasan", jobTitle: "Founder, CEO & Chief Product Officer" }, { "@type": "Person", name: "Nusrat Jahan Bably", jobTitle: "Co-Founder & Managing Director" }],
-    areaServed: "Worldwide", sameAs: [site.org, site.software, site.main] },
+    founder: [{ "@type": "Person", name: "Najmul Hasan", url: site.portfolio, jobTitle: "Founder, CEO & Chief Product Officer" }, { "@type": "Person", name: "Nusrat Jahan Bably", jobTitle: "Co-Founder & Managing Director" }],
+    areaServed: "Worldwide", sameAs: [site.org, site.software, site.main, site.portfolio] },
   { "@type": "WebSite", "@id": SITE_URL + "/#site", url: SITE_URL, name: "NAVICORE OS", description: desc, inLanguage: "en", publisher: { "@id": SITE_URL + "/#org" } },
 ] };
 
